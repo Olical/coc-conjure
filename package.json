@@ -1,7 +1,7 @@
 {
-  "name": "coc-conjure",
+  "name": "coc-conjure-olical",
   "version": "0.2.2",
-  "description": "conjure source for coc.nvim",
+  "description": "conjure source for coc.nvim (dev branch)",
   "scripts": {
     "beforeStage": "sed -i \"s/Unreleased/${version}/\" CHANGELOG.md",
     "afterRelease": "echo Successfully released ${name} v${version} to ${repo.repository}."
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jlesquembre/coc-conjure.git"
+    "url": "git+https://github.com/olical/coc-conjure.git"
   },
   "keywords": [
     "coc.nvim",
@@ -60,7 +60,7 @@
   },
   "author": "jl@lafuente.me",
   "license": "MIT",
-  "homepage": "https://github.com/jlesquembre/coc-conjure",
+  "homepage": "https://github.com/olical/coc-conjure",
   "devDependencies": {
     "coc.nvim": ">=0.0.57",
     "conventional-changelog-cli": "^2.0.21",
