@@ -1,6 +1,6 @@
 {
   "name": "coc-conjure-olical",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "conjure source for coc.nvim (dev branch)",
   "scripts": {
     "beforeStage": "sed -i \"s/Unreleased/${version}/\" CHANGELOG.md",
